@@ -1,0 +1,76 @@
+:root {
+  --width:40px;
+}
+
+body {
+  background-color: #212529;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  zoom: 75%;
+}
+
+/* Navigation Bar */
+.container-fluid {
+  padding: 1% 2% 0 2%;
+  text-align: left;
+}
+
+.projectName {
+  font-size: 2rem;
+  font-weight: bolder;
+}
+.navItemsList {
+  margin-left: auto;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.newArray {
+  margin-right: 1rem;
+}
+
+.navDropdown {
+  background-color: #f7f2f2;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+/* Bars */
+.barsCon {
+  margin-top: 5%;
+  height: 70vh;
+}
+.bar {
+  width: var(--width);
+  background-color: rgb(149, 144, 230);
+  margin-right: 2px;
+  margin-left: 5px;
+  display: inline-block;
+
+  background: linear-gradient(to right bottom,
+    rgba(122, 122, 223, 0.7),
+    rgba(95, 97, 187, 0.3));
+
+  border-radius: 12.5px;
+  box-shadow: 3px 5px #64769e;
+  
+  backdrop-filter: blur(32px);
+  transition: ease-out 0.3s;
+}
+
+/* Sort Btn */
+.btn-lg {
+  font-size: 1.75rem;
+  border-radius: 20px;
+  box-shadow: 5px 3px #888888;
+  font-weight: bold;
+  width: 200px;
+  align-self: center;
+}
+
+/* .bar:hover {
+  transition: 0.3s ease-out;
+  box-shadow: 10px 10px 10px 10px purple;
+  width: 3%;
+  margin: 0px 5px 0px 7px;
+} */
